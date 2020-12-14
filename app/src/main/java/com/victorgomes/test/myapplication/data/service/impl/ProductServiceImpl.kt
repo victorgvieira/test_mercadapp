@@ -4,6 +4,8 @@ import com.victorgomes.test.myapplication.data.service.ProductService
 import com.victorgomes.test.myapplication.data.service.api.AmaroApi
 import com.victorgomes.test.myapplication.data.util.NetworkErrorHandler
 import com.victorgomes.test.myapplication.domain.model.ProductItemListDomain
+import com.victorgomes.test.myapplication.view.util.TAG
+import com.victorgomes.test.myapplication.view.util.logDebug
 
 class ProductServiceImpl constructor(private val api: AmaroApi.Endpoint) :
     ProductService {
@@ -28,7 +30,7 @@ class ProductServiceImpl constructor(private val api: AmaroApi.Endpoint) :
             } ?: emptyList()
             list
         } catch (e: Throwable) {
-            e.printStackTrace()
+            logDebug(TAG, "Error catch: ", e)
             throw NetworkErrorHandler.handlerNetworkError(error = e)
         }
     }
