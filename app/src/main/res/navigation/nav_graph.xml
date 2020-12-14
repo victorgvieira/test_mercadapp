@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/ProductListFragment"
-        android:name="com.victorgomes.test.myapplication.view.productlist.ProductListFragment"
+        android:name="com.victorgomes.teste.mercadapp.myapplication.view.productlist.ProductListFragment"
         android:label="@string/lista_de_produtos"
         tools:layout="@layout/fragment_product_list">
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.victorgomes.test.myapplication.view.FirstFragment"
+        android:name="com.victorgomes.teste.mercadapp.myapplication.view.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.victorgomes.test.myapplication.view.SecondFragment"
+        android:name="com.victorgomes.teste.mercadapp.myapplication.view.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
@@ -38,6 +38,6 @@
     </fragment>
     <fragment
         android:id="@+id/productDetailFragment"
-        android:name="com.victorgomes.test.myapplication.view.productdetail.ProductDetailFragment"
+        android:name="com.victorgomes.teste.mercadapp.myapplication.view.productdetail.ProductDetailFragment"
         android:label="@string/details" />
 </navigation>

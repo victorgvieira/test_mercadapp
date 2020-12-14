@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="com.victorgomes.test.myapplication.view.productlist.ProductListViewModel" />
+            type="com.victorgomes.teste.mercadapp.myapplication.view.productlist.ProductListViewModel" />
     </data>
 
     <LinearLayout

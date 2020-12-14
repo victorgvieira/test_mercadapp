@@ -10,7 +10,7 @@
 
         <variable
             name="viewModel"
-            type="com.victorgomes.test.myapplication.view.productdetail.ProductDetailViewModel" />
+            type="com.victorgomes.teste.mercadapp.myapplication.view.productdetail.ProductDetailViewModel" />
     </data>
 
     <ScrollView

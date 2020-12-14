@@ -7,7 +7,7 @@
 
         <variable
             name="product"
-            type="com.victorgomes.test.myapplication.domain.model.ProductItemListDomain" />
+            type="com.victorgomes.teste.mercadapp.myapplication.domain.model.ProductItemListDomain" />
     </data>
 
     <LinearLayout
